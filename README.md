@@ -24,11 +24,11 @@ The foundation of the environment relies on a traditional Active Directory struc
 *   **Domain Join:** Successfully integrated `WIN11-CLIENT01` to the `romanotech.local` domain, verifying connectivity and local DNS resolution.
 
 ### Artifacts (Placeholders for GitHub)
-*   `![Domain Controller Install](Screenshots/01-DC-Install.png)`
-*   `![AD Structure](Screenshots/02-AD-Structure.png)`
-*   `![GPO Configuration](Screenshots/03-GPO-Config.png)`
-*   `![Domain Join Success](Screenshots/04-Domain-Join.png)`
-*   `![GPO Applied Verification](Screenshots/05-GPO-Applied.png)`
+*   ![Domain Controller Install](Screenshots/01-DC-Install.png)
+*   ![AD Structure](Screenshots/02-AD-Structure.png)
+*   ![GPO Configuration](Screenshots/03-GPO-Config.png)
+*   ![Domain Join Success](Screenshots/04-Domain-Join.png)
+*   ![GPO Applied Verification](Screenshots/05-GPO-Applied.png)
 
 ---
 
