@@ -24,11 +24,18 @@ The foundation of the environment relies on a traditional Active Directory struc
 *   **Domain Join:** Successfully integrated `WIN11-CLIENT01` to the `romanotech.local` domain, verifying connectivity and local DNS resolution.
 
 ### Artifacts
-![Domain Controller Install](Screenshots/01-DC-Install.png)
-![AD Structure](Screenshots/02-AD-Structure.png)
-![GPO Configuration](Screenshots/03-GPO-Config.png)
-![Domain Join Success](Screenshots/04-Domain-Join.png)
-![GPO Applied Verification](Screenshots/05-GPO-Applied.png)
+*  Domain Controller Install ![Domain Controller Install](Screenshots/01-DC01-Fresh-Install.png)
+
+*  Active Directory Structure
+
+    ![AD Structure](Screenshots/02-Active-Directory-Structure.png)
+
+*  GPO Configuration ![GPO Configuration](Screenshots/03-Group-Policy-Baseline.png)
+
+*  Domain Join Success  ![Domain Join Success](Screenshots/04-Domain-Join-Success.png)
+
+*  GPO Applied Verification  ![GPO Applied Verification](Screenshots/05-GPO-Applied.png)
+
 ---
 
 ## Phase 2: Cloud Identity & Access Management (Entra ID)
@@ -39,9 +46,9 @@ Transitioned identity management to the cloud, setting up a Microsoft 365 tenant
 *   **Conditional Access (Zero Trust):** Deployed a policy requiring Multi-Factor Authentication (MFA) for the pilot group. Deployed using enterprise-standard **Report-only** mode to prevent accidental lockouts during testing.
 
 ### Artifacts (Placeholders for GitHub)
-*   `![M365 Users](Screenshots/06-M365-Cloud-Users.png)`
-*   `![Entra Security Groups](Screenshots/07-Entra-Security-Groups.png)`
-*   `![Conditional Access Policy](Screenshots/10-Conditional-Access-Policy.png)`
+*   ![M365 Users](Screenshots/06-M365-Cloud-Users.png)
+*   ![Entra Security Groups](Screenshots/07-Entra-Security-Groups.png)
+*   ![Conditional Access Policy](Screenshots/10-Conditional-Access-Policy.png)
 
 ---
 
@@ -52,8 +59,8 @@ Bridged the on-premises device with the cloud, establishing a true co-managed hy
 *   **Cloud Policy Delivery:** Replicated the on-premises screen-lock security baseline by building and deploying an Intune Configuration Profile (Settings Catalog) targeting the IT Support cloud group.
 
 ### Artifacts (Placeholders for GitHub)
-*   `![Intune Device Enrolled](Screenshots/08-Intune-Device-Enrolled.png)`
-*   `![Intune Configuration Policy](Screenshots/09-Intune-Configuration-Policy.png)`
+*   ![Intune Device Enrolled](Screenshots/08-Intune-Device-Enrolled.png)
+*   ![Intune Configuration Policy](Screenshots/09-Intune-Configuration-Policy.png)
 
 ---
 
