@@ -1,6 +1,6 @@
 # Romano Technology Lab: Hybrid Identity & Endpoint Management
 
-**Author:** Perry Romano  
+**Author:** George Christopher Romano  
 **Objective:** Design, deploy, and secure a hybrid enterprise IT infrastructure bridging on-premises Active Directory with Microsoft Entra ID and Intune.
 
 ## Executive Summary
